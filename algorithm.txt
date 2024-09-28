@@ -1,0 +1,12 @@
+# Danny Regan
+# CSC6003
+
+Create a User class that will handle requests to change user-specific information.
+Create a class that initializes the music library program altogether.
+Loop indefinitely calling the menu method from this class to display a menu. Provide relevant options like adding a user.
+When the user adds a new user, or decides to change users, we'll need to store this information so that the program can call methods from the correct instance of the User class.
+The user's selection from this menu will call the associated method from the program class.
+These methods will gather relevant information about the requested method (if the user wants to add a new user, this part of the app will collect the new username, for example).
+The method then calls a relevant method from the User class, passing relevant data such as a new username or song title and artist.
+These methods alter information for a specific, selected instance of the User class.
+There's an option to break the menu loop and terminate the program whenever the user is finished.
